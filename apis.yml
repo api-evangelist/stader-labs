@@ -1,8 +1,25 @@
 aid: stader-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stader-labs.png
 name: Stader Labs
-description: 'Stader Labs is a company surfaced as a portfolio company of pantera-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Stader Labs is a non-custodial, smart-contract-driven liquid staking platform for
+  Proof-of-Stake networks. It lets retail users, exchanges, and custodians stake crypto and receive
+  tokenized liquid staking tokens (ETHx, MaticX, BNBx, NEARx and others) that stay usable across 40+
+  DeFi protocols while earning auto-compounding rewards, with no lock-up and no minimum stake. Stader
+  operates as multi-chain middleware infrastructure across Ethereum, Polygon, BNB Chain, Hedera,
+  Fantom, and NEAR, and its contracts have been audited by Sigma Prime, Halborn, Peckshield, Code4rena,
+  and OtterSec. The project is on-chain and open source rather than a REST/OpenAPI provider; developer
+  surface area is Solidity/Go/Rust smart contracts, node software, and CLI tooling on GitHub.'
 url: https://raw.githubusercontent.com/api-evangelist/stader-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto
+- DeFi
+- Liquid Staking
+- Blockchain
+- Staking
+- Web3
+- Ethereum
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/stader-labs-domain-security.yml
 - type: Website
   url: https://www.staderlabs.com/
+- type: Documentation
+  url: https://www.staderlabs.com/docs/
+- type: GitHubOrganization
+  url: https://github.com/stader-labs
+- type: Blog
+  url: https://www.staderlabs.com/blogs/
+- type: Support
+  url: https://forum.staderlabs.com/
+- type: TermsOfService
+  url: https://www.staderlabs.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.staderlabs.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
