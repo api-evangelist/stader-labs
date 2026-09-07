@@ -78,3 +78,5 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-parent: stader
+x-relationship: product
